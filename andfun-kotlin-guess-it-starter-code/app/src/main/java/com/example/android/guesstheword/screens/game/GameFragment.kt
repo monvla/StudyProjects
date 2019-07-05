@@ -60,8 +60,6 @@ class GameFragment : Fragment() {
                 false
         )
 
-
-
         binding.correctButton.setOnClickListener {
             viewModel.onCorrect()
         }
