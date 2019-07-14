@@ -17,11 +17,13 @@
 
 package com.example.android.marsrealestate.network
 
+import android.os.Parcel
+import android.os.Parcelable
 import com.squareup.moshi.Json
 
 data class MarsProperty(
         val id: String,
         @Json(name = "img_src") val imgSrcUrl: String,
         val type: String,
-        val price: Double
-)
+        val price: Double)
+
